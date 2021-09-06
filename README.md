@@ -90,6 +90,23 @@ console.log( parts );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/constants/path/sep-posix`][@stdlib/constants/path/sep-posix]: POSIX path segment separator.
+-   [`@stdlib/constants/path/sep-win32`][@stdlib/constants/path/sep-win32]: Windows path segment separator.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -144,6 +161,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-path-sep/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/constants/path/sep-posix]: https://github.com/stdlib-js/constants-path-sep-posix
+
+[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32
+
+<!-- </related-links> -->
 
 </section>
 
