@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/constants-path-sep",
+  "version": "0.0.0",
+  "description": "Platform-specific path segment separator.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-path-sep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdstring",
+    "constant",
+    "const",
+    "path",
+    "separator",
+    "sep",
+    "split",
+    "posix",
+    "linux",
+    "darwin",
+    "bsd",
+    "windows",
+    "win32"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
