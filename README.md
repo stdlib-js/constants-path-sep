@@ -161,8 +161,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-path-sep.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-path-sep
 
-[test-image]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-path-sep/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-path-sep?branch=main
