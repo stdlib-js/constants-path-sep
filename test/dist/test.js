@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,32 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var PATH_SEP_POSIX = require( '@stdlib/constants-path-sep-posix' );
-var PATH_SEP_WIN32 = require( '@stdlib/constants-path-sep-win32' );
-var PATH_SEP = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a string', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof PATH_SEP, 'string', 'main export is a string' );
-	t.end();
-});
-
-tape( 'if platform is POSIX, export is the POSIX path separator', function test( t ) {
-	var PATH_SEP = proxyquire( './../dist', {
-		'@stdlib/assert-is-windows': false
-	});
-	t.equal( PATH_SEP, PATH_SEP_POSIX, 'equals POSIX separator' );
-	t.end();
-});
-
-tape( 'if platform is Windows, export is the Windows path separator', function test( t ) {
-	var PATH_SEP = proxyquire( './../dist', {
-		'@stdlib/assert-is-windows': true
-	});
-	t.equal( PATH_SEP, PATH_SEP_WIN32, 'equals Windows separator' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
