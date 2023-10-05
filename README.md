@@ -35,43 +35,30 @@ limitations under the License.
 
 > Platform-specific path segment separator.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-path-sep
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-PATH_SEP = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path-sep/tags). For example,
-
-```javascript
-PATH_SEP = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@v0.1.1-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var PATH_SEP = require( 'path/to/vendor/umd/constants-path-sep/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.PATH_SEP;
-})();
-</script>
+var PATH_SEP = require( '@stdlib/constants-path-sep' );
 ```
 
 #### PATH_SEP
@@ -101,14 +88,9 @@ if ( IS_WINDOWS ) {
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var IS_WINDOWS = require( '@stdlib/assert-is-windows' );
+var PATH_SEP = require( '@stdlib/constants-path-sep' );
 
 var path;
 if ( IS_WINDOWS ) {
@@ -119,11 +101,6 @@ if ( IS_WINDOWS ) {
 var parts = path.split( PATH_SEP );
 console.log( parts );
 // => ['foo','bar','baz']
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -184,8 +161,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-path-sep.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-path-sep
 
-[test-image]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/constants-path-sep/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-path-sep/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-path-sep?branch=main
@@ -216,9 +193,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/path/sep-posix]: https://github.com/stdlib-js/constants-path-sep-posix/tree/umd
+[@stdlib/constants/path/sep-posix]: https://github.com/stdlib-js/constants-path-sep-posix
 
-[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32/tree/umd
+[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32
 
 <!-- </related-links> -->
 
