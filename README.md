@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@deno/mod.js';
+import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@v0.2.0-deno/mod.js';
 ```
 
 #### PATH_SEP
@@ -74,7 +74,7 @@ if ( IS_WINDOWS ) {
 
 ```javascript
 import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@deno/mod.js';
-import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@deno/mod.js';
+import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@v0.2.0-deno/mod.js';
 
 var path;
 if ( IS_WINDOWS ) {
