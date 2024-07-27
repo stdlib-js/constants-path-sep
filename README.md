@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path-sep/tags). For example,
+
+```javascript
 import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@v0.2.2-esm/index.mjs';
 ```
 
@@ -79,7 +84,7 @@ if ( IS_WINDOWS ) {
 <script type="module">
 
 import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@esm/index.mjs';
-import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@v0.2.2-esm/index.mjs';
+import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@esm/index.mjs';
 
 var path;
 if ( IS_WINDOWS ) {
