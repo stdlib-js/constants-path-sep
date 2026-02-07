@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path-sep/tags). For example,
+
+```javascript
 import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@v0.2.3-deno/mod.js';
 ```
 
@@ -74,7 +79,7 @@ if ( IS_WINDOWS ) {
 
 ```javascript
 import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@deno/mod.js';
-import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@v0.2.3-deno/mod.js';
+import PATH_SEP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep@deno/mod.js';
 
 var path;
 if ( IS_WINDOWS ) {
