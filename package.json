@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-path-sep",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Platform-specific path segment separator.",
   "license": "Apache-2.0",
   "author": {
@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-windows": "^0.2.2",
-    "@stdlib/constants-path-sep-posix": "^0.2.2",
-    "@stdlib/constants-path-sep-win32": "^0.2.2"
+    "@stdlib/constants-path-sep-posix": "^0.2.3",
+    "@stdlib/constants-path-sep-win32": "^0.2.3"
   },
   "devDependencies": {
     "proxyquire": "^2.0.0",
